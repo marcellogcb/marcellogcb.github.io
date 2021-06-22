@@ -23,6 +23,8 @@ body{
 background: linear-gradient(90deg, rgba(30,240,204,1) 0%, rgba(45,253,165,1) 100%);
   }
   .container .bemvindo{
+    text-transform: uppercase;
+    font-size:larger;
     color: white;
     width: 80%;
     height: 86%;
@@ -40,7 +42,7 @@ background: linear-gradient(90deg, rgba(30,240,204,1) 0%, rgba(45,253,165,1) 100
   }
   a#instagram{
     width: 7%;
-    height: 50%;
+    height: max-content;
     min-width: 60px;
     border: none;
       border-radius: 50px;
@@ -51,12 +53,13 @@ background: linear-gradient(90deg, rgba(30,240,204,1) 0%, rgba(45,253,165,1) 100
 
   .fab{
      color: white;
-     font-size: 300%;
-   }
+     font-size: 2.3rem;
+     margin-top: 0.135em;
+    }
   .fa-address-card{
-    margin-top: 0.1em;
+    margin-top: 0.180em;
     color: white;
-     font-size: 250%;
+     font-size: 2rem;
    }
   .container p{
     font-size: 0.9em;
