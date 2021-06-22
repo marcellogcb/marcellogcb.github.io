@@ -5,7 +5,7 @@ color: #0fa7de
 * {margin: 0;padding: 0;box-sizing: border-box;}
 body{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   font-family: 'Poppins';
   overflow-x: hidden;
 }
@@ -29,7 +29,7 @@ background: linear-gradient(90deg, rgba(30,240,204,1) 0%, rgba(45,253,165,1) 100
     margin: 6px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: flex;
     justify-content: space-around;
     align-items: center;
     border: none;
@@ -43,7 +43,7 @@ background: linear-gradient(90deg, rgba(30,240,204,1) 0%, rgba(45,253,165,1) 100
     height: 50%;
     min-width: 60px;
     border: none;
-      border-radius: 56px;
+      border-radius: 50px;
   background: #0fdeaf;
   box-shadow:  5px 5px 10px #065946,
                -5px -5px 10px #18ffff;
@@ -53,102 +53,20 @@ background: linear-gradient(90deg, rgba(30,240,204,1) 0%, rgba(45,253,165,1) 100
      color: white;
      font-size: 300%;
    }
+  .fa-address-card{
+    margin-top: 0.1em;
+    color: white;
+     font-size: 250%;
+   }
   .container p{
     font-size: 0.9em;
     color: white;
     text-shadow: 1px 1px 1px black;
   }
-  .trafego {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #07deaf;
-    background-color: #101312
-  }
-  .line{
-    width: 2%;
-    float: none;
-    background-color: turquoise;
-  }
-  .webdesign {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #07deaf;
-    background-image: linear-gradient(to right, #233632 5%, #151816 , #030705 );
-    background: linear-gradient(217deg, #151816, rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, #151816 , #030705 70.71%),
-    linear-gradient(336deg, #233632, rgba(0,0,255,0) 70.71%);
-  }
 
-  .container2{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 80%;
-    background-image: linear-gradient(to right, #233632 5%, #151816 , #030705 );
-    background: linear-gradient(217deg, #151816, rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, #151816 , #030705 70.71%),
-    linear-gradient(336deg, #233632, rgba(0,0,255,0) 70.71%);
-  }
-  .trafegomodal{
-    width: 80%;
-    height: 80%;
-    cursor: pointer;
-    border-radius: 36px;
-    border-style: hidden;
-    background: #101312;
-    box-shadow:  5px 5px 10px #060807,
-                 -5px -5px 10px #1a1e1d;
-  }
-  .trafegomodal:hover{
-    width: 80%;
-    height: 80%;
-    cursor: pointer;
-    border-radius: 36px;
-    border-style: hidden;
-    background: #101312;
-    box-shadow: inset 5px 5px 10px #060807,
-               inset  -5px -5px 10px #1a1e1d;
-  }
-  .designmodal{
-    width: 80%;
-    height: 80%;
-    cursor: pointer;
-    border-radius: 36px;
-    border: none;
-    background: #101312;
-    box-shadow:  5px 5px 10px #060807,
-                 -5px -5px 10px #1a1e1d; 
-  }
-  .designmodal:hover{
-    width: 80%;
-    height: 80%;
-    cursor: pointer;
-    border-radius: 36px;
-    border: none;
-    background: #101312;
-    box-shadow: inset 5px 5px 10px #060807,
-               inset  -5px -5px 10px #1a1e1d; 
-  }
-  .designmodal:active{
-    width: 80%;
-    height: 80%;
-    cursor: pointer;
-    border-radius: 36px;
-    border: none;
-    background: #101312;
-    box-shadow:  5px 5px 10px #060807,
-                 -5px -5px 10px #1a1e1d; 
-  }
   .container3{
     width: 100%;
-    max-height: 1200;
-    min-height: 900;
+    min-height: 800px;
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -269,19 +187,4 @@ background: linear-gradient(90deg, rgba(30,240,204,1) 0%, rgba(45,253,165,1) 100
     background: #0fdeaf;
     color: whitesmoke; 
     box-shadow: inset 0px 0px 10px #0fdeaf;
-  }
-.icone1{
- width: 10%;
-}
-.icone2{
-  width: 10%;
-}
-button#logo2{
-  width: 60%;
-  height: 60%;
-  border: none;
-    border-radius: 36px;
-background: #0fdeaf;
-box-shadow:  5px 5px 10px #065946,
-             -5px -5px 10px #18ffff;
   }
