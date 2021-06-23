@@ -63,6 +63,7 @@ body{
   } 
   .container3 .card:hover .face.face1{
     transform: translateY(0);
+    color: #0fdeaf;
   }
   .container3 .card .face.face1 .content{
     opacity: 90;
@@ -79,7 +80,6 @@ body{
     font-size: 3em;
     color: white;
     display: inline-block;
-     
   }
   
   .container3 .card .face.face1 .content h3{
