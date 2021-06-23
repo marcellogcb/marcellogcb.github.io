@@ -1,15 +1,18 @@
 /*Paleta de cores
 color: #07deaf -> green
-color: #0fa7de -> blue
+color: #0fa7de -> Blue
 */
 * {margin: 0;padding: 0;box-sizing: border-box;}
-
+html{
+  min-width: 400px;
+}
 body{
   width: 100%;
   font-family: 'Poppins';
   overflow-x: hidden;
 }
 .copy{
+  min-width: 500px;
   display: flex;
   justify-content: center;
   color: white;
@@ -19,6 +22,7 @@ body{
   linear-gradient(336deg, #233632, rgba(0,0,255,0) 70.71%);
 }
 .container{
+  min-width: 500px;
   height: 100%;
   min-height: 550px;
   background-image: linear-gradient(to right, #233632 5%, #151816 , #030705 );
@@ -146,6 +150,7 @@ body{
 /*  Rodapé Section  */
 .rodape{
   min-height: 80px;
+  min-width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
